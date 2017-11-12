@@ -6,6 +6,7 @@ public class pracClass {
 
 		int x = 10;
 		String  y = "yahoo";
+		// boolean true;
 	}
 ;
 }
