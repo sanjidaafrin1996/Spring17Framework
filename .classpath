@@ -2,5 +2,16 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/Hasan/workspace/Spring17Framework/jars/byte-buddy-1.7.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hasan/workspace/Spring17Framework/jars/client-combined-3.7.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hasan/workspace/Spring17Framework/jars/client-combined-3.7.1-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hasan/workspace/Spring17Framework/jars/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hasan/workspace/Spring17Framework/jars/commons-exec-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hasan/workspace/Spring17Framework/jars/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hasan/workspace/Spring17Framework/jars/gson-2.8.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hasan/workspace/Spring17Framework/jars/guava-23.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hasan/workspace/Spring17Framework/jars/httpclient-4.5.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hasan/workspace/Spring17Framework/jars/httpcore-4.4.6.jar"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
