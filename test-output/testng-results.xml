@@ -1,21 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="7227" started-at="2017-11-26T18:06:39Z" finished-at="2017-11-26T18:06:46Z">
+  <suite name="Default suite" duration-ms="14485" started-at="2017-12-03T17:43:26Z" finished-at="2017-12-03T17:43:41Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="7227" started-at="2017-11-26T18:06:39Z" finished-at="2017-11-26T18:06:46Z">
-      <class name="tests.test1">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.test1@5dfcfece]" name="setUp" is-config="true" duration-ms="6378" started-at="2017-11-26T13:06:39Z" finished-at="2017-11-26T13:06:45Z">
+    <test name="Default test" duration-ms="14485" started-at="2017-12-03T17:43:26Z" finished-at="2017-12-03T17:43:41Z">
+      <class name="tests.test12">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:tests.test12@4439f31e]" name="beforeClass" is-config="true" duration-ms="4482" started-at="2017-12-03T12:43:26Z" finished-at="2017-12-03T12:43:31Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="createFBAccountWith18plus()[pri:0, instance:tests.test1@5dfcfece]" name="createFBAccountWith18plus" duration-ms="821" started-at="2017-11-26T13:06:45Z" finished-at="2017-11-26T13:06:46Z">
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="assertIfUserLoggnedIn()[pri:1, instance:tests.test12@4439f31e]" name="assertIfUserLoggnedIn" duration-ms="1388" started-at="2017-12-03T12:43:31Z" finished-at="2017-12-03T12:43:32Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createFBAccountWith18plus -->
-      </class> <!-- tests.test1 -->
+        </test-method> <!-- assertIfUserLoggnedIn -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.test12@4439f31e]" name="afterMethod" is-config="true" duration-ms="799" started-at="2017-12-03T12:43:32Z" finished-at="2017-12-03T12:43:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:tests.test12@4439f31e]" name="beforeClass" is-config="true" duration-ms="3354" started-at="2017-12-03T12:43:33Z" finished-at="2017-12-03T12:43:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="firstLogin()[pri:2, instance:tests.test12@4439f31e]" name="firstLogin" duration-ms="1730" started-at="2017-12-03T12:43:36Z" finished-at="2017-12-03T12:43:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstLogin -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.test12@4439f31e]" name="afterMethod" is-config="true" duration-ms="2700" started-at="2017-12-03T12:43:38Z" finished-at="2017-12-03T12:43:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- tests.test12 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

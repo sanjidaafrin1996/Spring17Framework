@@ -1,5 +1,7 @@
 package base;
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.BeforeMethod;
 
@@ -14,8 +16,10 @@ public class Config extends webDriverApi {
 	public void setUp(){
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\Hasan\\workspace\\Spring17Framework\\drivers\\chromedriver.exe");
 		driver = new ChromeDriver();
-		driver.manage().window().maximize();
 		driver.get("https://www.facebook.com");
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		
 
 		
 	}
