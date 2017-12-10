@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="tests.test12">
+      <class name="tests.tryCatch_assertion">
         <methods>
-          <include name="beforeGoogle"/>
-          <include name="testGoolge"/>
+          <include name="beforeClass"/>
+          <include name="assertRightThere"/>
           <include name="afterMethod"/>
         </methods>
-      </class> <!-- tests.test12 -->
+      </class> <!-- tests.tryCatch_assertion -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
