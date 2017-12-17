@@ -9,4 +9,13 @@ public class locators1 {
 	public String yyDropdownLoc = ".//*[@id='year']";
 	
 	public String femaleLocator = "u_0_6";
+	
+	// Sign in
+	
+	public String emailLoc = "//*[@id='email']";
+	public String passLoc = "//*[@id='pass']";
+	
+	// assertion
+	
+	public String signUpTextLoc = "//*[@id='content']/div/div/div/div/div[2]/h2";
 }
