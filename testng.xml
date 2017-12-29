@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="testNG Framework">
+
+	<!-- ================== CHROME TEST =============== -->
+	<test name="chome test">
+		<parameter name="browser" value="CH"></parameter>
+		<classes>
+			<class name="tests.learnLog4j" />
+			<class name="tests.dataProviderTest"></class>
+		</classes>
+	</test> <!-- Test -->
+
+	<!-- ==================FIREFOX TEST =============== -->
+	
+	<test name="fireFox test">
+		<parameter name="browser" value="ff"></parameter>
+
+		<classes>
+			<class name="tests.learnLog4j" />
+			<class name="tests.dataProviderTest"></class>
+		</classes>
+	</test> <!-- Test -->
+
+
+</suite> <!-- Suite -->
+
