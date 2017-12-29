@@ -1,37 +1,163 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="10" passed="10">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="15051" started-at="2017-12-17T18:22:00Z" finished-at="2017-12-17T18:22:15Z">
+  <suite name="testNG Framework" duration-ms="75285" started-at="2017-12-24T17:16:39Z" finished-at="2017-12-24T17:17:54Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="15051" started-at="2017-12-17T18:22:00Z" finished-at="2017-12-17T18:22:15Z">
-      <class name="tests.ReadWriteUsingXL">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.ReadWriteUsingXL@3d680b5a]" name="setUp" is-config="true" duration-ms="7927" started-at="2017-12-17T13:22:00Z" finished-at="2017-12-17T13:22:08Z">
+    <test name="chome test" duration-ms="39467" started-at="2017-12-24T17:16:39Z" finished-at="2017-12-24T17:17:18Z">
+      <class name="tests.dataProviderTest">
+        <test-method status="PASS" signature="testDataProvider(java.lang.String, java.lang.String)[pri:0, instance:tests.dataProviderTest@cb644e]" name="testDataProvider" duration-ms="9" started-at="2017-12-24T12:17:18Z" data-provider="auth" finished-at="2017-12-24T12:17:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mafuz]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDataProvider -->
+        <test-method status="PASS" signature="testDataProvider(java.lang.String, java.lang.String)[pri:0, instance:tests.dataProviderTest@cb644e]" name="testDataProvider" duration-ms="3" started-at="2017-12-24T12:17:18Z" data-provider="auth" finished-at="2017-12-24T12:17:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sumi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test.232]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDataProvider -->
+        <test-method status="PASS" signature="testDataProvider(java.lang.String, java.lang.String)[pri:0, instance:tests.dataProviderTest@cb644e]" name="testDataProvider" duration-ms="2" started-at="2017-12-24T12:17:18Z" data-provider="auth" finished-at="2017-12-24T12:17:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Taltekc@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test234245]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDataProvider -->
+      </class> <!-- tests.dataProviderTest -->
+      <class name="tests.learnLog4j">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.learnLog4j@5cb9f472]" name="setUp" is-config="true" duration-ms="9105" started-at="2017-12-24T12:16:39Z" finished-at="2017-12-24T12:16:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CH]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="readFromXl()[pri:0, instance:tests.ReadWriteUsingXL@3d680b5a]" name="readFromXl" duration-ms="296" started-at="2017-12-17T13:22:08Z" finished-at="2017-12-17T13:22:08Z">
+        <test-method status="PASS" signature="fbFirstNameBoxTest()[pri:0, instance:tests.learnLog4j@5cb9f472]" name="fbFirstNameBoxTest" duration-ms="30112" started-at="2017-12-24T12:16:48Z" finished-at="2017-12-24T12:17:18Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- readFromXl -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.ReadWriteUsingXL@3d680b5a]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-12-17T13:22:08Z" finished-at="2017-12-17T13:22:08Z">
+        </test-method> <!-- fbFirstNameBoxTest -->
+        <test-method status="PASS" signature="fbRadioButtonTest()[pri:0, instance:tests.learnLog4j@5cb9f472]" name="fbRadioButtonTest" duration-ms="174" started-at="2017-12-24T12:17:18Z" finished-at="2017-12-24T12:17:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fbRadioButtonTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.learnLog4j@5cb9f472]" name="tearDown" is-config="true" duration-ms="1" started-at="2017-12-24T12:17:18Z" finished-at="2017-12-24T12:17:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.ReadWriteUsingXL@3d680b5a]" name="setUp" is-config="true" duration-ms="6075" started-at="2017-12-17T13:22:08Z" finished-at="2017-12-17T13:22:14Z">
+      </class> <!-- tests.learnLog4j -->
+    </test> <!-- chome test -->
+    <test name="fireFox test" duration-ms="35753" started-at="2017-12-24T17:17:18Z" finished-at="2017-12-24T17:17:54Z">
+      <class name="tests.dataProviderTest">
+        <test-method status="PASS" signature="testDataProvider(java.lang.String, java.lang.String)[pri:0, instance:tests.dataProviderTest@1e127982]" name="testDataProvider" duration-ms="2" started-at="2017-12-24T12:17:54Z" data-provider="auth" finished-at="2017-12-24T12:17:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mafuz]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDataProvider -->
+        <test-method status="PASS" signature="testDataProvider(java.lang.String, java.lang.String)[pri:0, instance:tests.dataProviderTest@1e127982]" name="testDataProvider" duration-ms="2" started-at="2017-12-24T12:17:54Z" data-provider="auth" finished-at="2017-12-24T12:17:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sumi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test.232]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDataProvider -->
+        <test-method status="PASS" signature="testDataProvider(java.lang.String, java.lang.String)[pri:0, instance:tests.dataProviderTest@1e127982]" name="testDataProvider" duration-ms="5" started-at="2017-12-24T12:17:54Z" data-provider="auth" finished-at="2017-12-24T12:17:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Taltekc@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test234245]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDataProvider -->
+      </class> <!-- tests.dataProviderTest -->
+      <class name="tests.learnLog4j">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.learnLog4j@617faa95]" name="setUp" is-config="true" duration-ms="5491" started-at="2017-12-24T12:17:18Z" finished-at="2017-12-24T12:17:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ff]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="writeIntoXl()[pri:0, instance:tests.ReadWriteUsingXL@3d680b5a]" name="writeIntoXl" duration-ms="723" started-at="2017-12-17T13:22:14Z" finished-at="2017-12-17T13:22:15Z">
+        <test-method status="PASS" signature="fbFirstNameBoxTest()[pri:0, instance:tests.learnLog4j@617faa95]" name="fbFirstNameBoxTest" duration-ms="30092" started-at="2017-12-24T12:17:24Z" finished-at="2017-12-24T12:17:54Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- writeIntoXl -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.ReadWriteUsingXL@3d680b5a]" name="tearDown" is-config="true" duration-ms="1" started-at="2017-12-17T13:22:15Z" finished-at="2017-12-17T13:22:15Z">
+        </test-method> <!-- fbFirstNameBoxTest -->
+        <test-method status="PASS" signature="fbRadioButtonTest()[pri:0, instance:tests.learnLog4j@617faa95]" name="fbRadioButtonTest" duration-ms="145" started-at="2017-12-24T12:17:54Z" finished-at="2017-12-24T12:17:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fbRadioButtonTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.learnLog4j@617faa95]" name="tearDown" is-config="true" duration-ms="1" started-at="2017-12-24T12:17:54Z" finished-at="2017-12-24T12:17:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- tests.ReadWriteUsingXL -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- tests.learnLog4j -->
+    </test> <!-- fireFox test -->
+  </suite> <!-- testNG Framework -->
 </testng-results>
