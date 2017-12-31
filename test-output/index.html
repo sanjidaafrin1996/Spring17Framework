@@ -2,7 +2,6 @@
 
 <html>
   <head>
-  <meta charset='utf-8'>
   <title>TestNG reports</title>
 
     <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
@@ -38,7 +37,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-testNG_Framework">
-              <span class="suite-name border-passed">testNG Framework</span>
+              <span class="suite-name border-skipped">testNG Framework</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,7 +90,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">10 methods,   10 passed</span>
+                    <span class="method-stats">4 methods,  1 skipped,  3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-testNG_Framework" class="hide-methods skipped suite-testNG_Framework"> (hide)</a> <!-- hide-methods skipped suite-testNG_Framework -->
+                      <a href="#" panel-name="suite-testNG_Framework" class="show-methods skipped suite-testNG_Framework"> (show)</a> <!-- show-methods skipped suite-testNG_Framework -->
+                    </span>
+                    <div class="method-list-content skipped suite-testNG_Framework">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testNG_Framework" title="tests.SkipDisable" hash-for-method="goingToSkip">goingToSkip</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-testNG_Framework -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,52 +115,17 @@
                     <div class="method-list-content passed suite-testNG_Framework">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-testNG_Framework" title="tests.learnLog4j" hash-for-method="fbFirstNameBoxTest">fbFirstNameBoxTest</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-testNG_Framework" title="tests.SkipDisable" hash-for-method="goingToDisable">goingToDisable</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-testNG_Framework" title="tests.learnLog4j" hash-for-method="fbFirstNameBoxTest">fbFirstNameBoxTest</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-testNG_Framework" title="tests.ReadWriteUsingXL" hash-for-method="readFromXl">readFromXl</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-testNG_Framework" title="tests.learnLog4j" hash-for-method="fbRadioButtonTest">fbRadioButtonTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-testNG_Framework" title="tests.learnLog4j" hash-for-method="fbRadioButtonTest">fbRadioButtonTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-testNG_Framework" title="tests.dataProviderTest" hash-for-method="testDataProvider(mafuz, Test@123)">testDataProvider(mafuz, Test@123)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-testNG_Framework" title="tests.dataProviderTest" hash-for-method="testDataProvider(sumi, test.232)">testDataProvider(sumi, test.232)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-testNG_Framework" title="tests.dataProviderTest" hash-for-method="testDataProvider(Taltekc@gmail.com, test234245)">testDataProvider(Taltekc@gmail.com, test234245)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-testNG_Framework" title="tests.dataProviderTest" hash-for-method="testDataProvider(sumi, test.232)">testDataProvider(sumi, test.232)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-testNG_Framework" title="tests.dataProviderTest" hash-for-method="testDataProvider(Taltekc@gmail.com, test234245)">testDataProvider(Taltekc@gmail.com, test234245)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-testNG_Framework" title="tests.dataProviderTest" hash-for-method="testDataProvider(mafuz, Test@123)">testDataProvider(mafuz, Test@123)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-testNG_Framework" title="tests.ReadWriteUsingXL" hash-for-method="writeIntoXl">writeIntoXl</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-testNG_Framework -->
@@ -162,38 +140,43 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-testNG_Framework" class="panel testNG_Framework">
-          <div class="suite-testNG_Framework-class-passed">
+          <div class="suite-testNG_Framework-class-skipped">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">tests.learnLog4j</span>
+              <img src="skipped.png"/>
+              <span class="class-name">tests.SkipDisable</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="fbFirstNameBoxTest">
-                  </a> <!-- fbFirstNameBoxTest -->
-                  <span class="method-name">fbFirstNameBoxTest</span>
+                  <a name="goingToSkip">
+                  </a> <!-- goingToSkip -->
+                  <span class="method-name">goingToSkip</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping because this test is no longer needed!!
+	at tests.SkipDisable.goingToSkip(SkipDisable.java:18)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testNG_Framework-class-skipped -->
+          <div class="suite-testNG_Framework-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.ReadWriteUsingXL</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="readFromXl">
+                  </a> <!-- readFromXl -->
+                  <span class="method-name">readFromXl</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="fbFirstNameBoxTest">
-                  </a> <!-- fbFirstNameBoxTest -->
-                  <span class="method-name">fbFirstNameBoxTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="fbRadioButtonTest">
-                  </a> <!-- fbRadioButtonTest -->
-                  <span class="method-name">fbRadioButtonTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="fbRadioButtonTest">
-                  </a> <!-- fbRadioButtonTest -->
-                  <span class="method-name">fbRadioButtonTest</span>
+                  <a name="writeIntoXl">
+                  </a> <!-- writeIntoXl -->
+                  <span class="method-name">writeIntoXl</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -201,55 +184,14 @@
           <div class="suite-testNG_Framework-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">tests.dataProviderTest</span>
+              <span class="class-name">tests.SkipDisable</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testDataProvider(mafuz, Test@123)">
-                  </a> <!-- testDataProvider(mafuz, Test@123) -->
-                  <span class="method-name">testDataProvider</span>
-                  <span class="parameters">(mafuz, Test@123)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testDataProvider(sumi, test.232)">
-                  </a> <!-- testDataProvider(sumi, test.232) -->
-                  <span class="method-name">testDataProvider</span>
-                  <span class="parameters">(sumi, test.232)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testDataProvider(Taltekc@gmail.com, test234245)">
-                  </a> <!-- testDataProvider(Taltekc@gmail.com, test234245) -->
-                  <span class="method-name">testDataProvider</span>
-                  <span class="parameters">(Taltekc@gmail.com, test234245)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testDataProvider(sumi, test.232)">
-                  </a> <!-- testDataProvider(sumi, test.232) -->
-                  <span class="method-name">testDataProvider</span>
-                  <span class="parameters">(sumi, test.232)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testDataProvider(Taltekc@gmail.com, test234245)">
-                  </a> <!-- testDataProvider(Taltekc@gmail.com, test234245) -->
-                  <span class="method-name">testDataProvider</span>
-                  <span class="parameters">(Taltekc@gmail.com, test234245)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testDataProvider(mafuz, Test@123)">
-                  </a> <!-- testDataProvider(mafuz, Test@123) -->
-                  <span class="method-name">testDataProvider</span>
-                  <span class="parameters">(mafuz, Test@123)</span>
+                  <a name="goingToDisable">
+                  </a> <!-- goingToDisable -->
+                  <span class="method-name">goingToDisable</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -265,18 +207,14 @@
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;testNG Framework&quot;&gt;
   &lt;test name=&quot;chome test&quot;&gt;
-    &lt;parameter name=&quot;browser&quot; value=&quot;CH&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;Ch&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;tests.learnLog4j&quot;/&gt;
-      &lt;class name=&quot;tests.dataProviderTest&quot;/&gt;
+      &lt;class name=&quot;tests.ReadWriteUsingXL&quot;/&gt;
+      &lt;class name=&quot;tests.SkipDisable&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- chome test --&gt;
   &lt;test name=&quot;fireFox test&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;ff&quot;/&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;tests.learnLog4j&quot;/&gt;
-      &lt;class name=&quot;tests.dataProviderTest&quot;/&gt;
-    &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- fireFox test --&gt;
 &lt;/suite&gt; &lt;!-- testNG Framework --&gt;
             </pre>
@@ -292,7 +230,7 @@
                 <span class="test-name">chome test (2 classes)</span>
               </li>
               <li>
-                <span class="test-name">fireFox test (2 classes)</span>
+                <span class="test-name">fireFox test (0 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -318,52 +256,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(10);
+data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'fbFirstNameBoxTest')
-data.setCell(0, 2, 'tests.learnLog4j')
-data.setCell(0, 3, 30112);
+data.setCell(0, 1, 'writeIntoXl')
+data.setCell(0, 2, 'tests.ReadWriteUsingXL')
+data.setCell(0, 3, 266);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'fbFirstNameBoxTest')
-data.setCell(1, 2, 'tests.learnLog4j')
-data.setCell(1, 3, 30092);
+data.setCell(1, 1, 'readFromXl')
+data.setCell(1, 2, 'tests.ReadWriteUsingXL')
+data.setCell(1, 3, 254);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'fbRadioButtonTest')
-data.setCell(2, 2, 'tests.learnLog4j')
-data.setCell(2, 3, 174);
+data.setCell(2, 1, 'goingToDisable')
+data.setCell(2, 2, 'tests.SkipDisable')
+data.setCell(2, 3, 0);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'fbRadioButtonTest')
-data.setCell(3, 2, 'tests.learnLog4j')
-data.setCell(3, 3, 145);
-data.setCell(4, 0, 4)
-data.setCell(4, 1, 'testDataProvider')
-data.setCell(4, 2, 'tests.dataProviderTest')
-data.setCell(4, 3, 9);
-data.setCell(5, 0, 5)
-data.setCell(5, 1, 'testDataProvider')
-data.setCell(5, 2, 'tests.dataProviderTest')
-data.setCell(5, 3, 5);
-data.setCell(6, 0, 6)
-data.setCell(6, 1, 'testDataProvider')
-data.setCell(6, 2, 'tests.dataProviderTest')
-data.setCell(6, 3, 3);
-data.setCell(7, 0, 7)
-data.setCell(7, 1, 'testDataProvider')
-data.setCell(7, 2, 'tests.dataProviderTest')
-data.setCell(7, 3, 2);
-data.setCell(8, 0, 8)
-data.setCell(8, 1, 'testDataProvider')
-data.setCell(8, 2, 'tests.dataProviderTest')
-data.setCell(8, 3, 2);
-data.setCell(9, 0, 9)
-data.setCell(9, 1, 'testDataProvider')
-data.setCell(9, 2, 'tests.dataProviderTest')
-data.setCell(9, 3, 2);
+data.setCell(3, 1, 'goingToSkip')
+data.setCell(3, 2, 'tests.SkipDisable')
+data.setCell(3, 3, 0);
 window.suiteTableData['testNG_Framework']= { tableData: data, tableDiv: 'times-div-testNG_Framework'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 520 ms</span>
               <div id="times-div-testNG_Framework">
               </div> <!-- times-div-testNG_Framework -->
             </div> <!-- times-div -->
@@ -378,17 +292,13 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-testNG_Framework" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">4 ignored methods</span>
+            <span class="header-content">2 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
-              <span class="ignored-class-name">tests.dataProviderTest</span>
+              <span class="ignored-class-name">tests.SkipDisable</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">setUp</span>
-                <br/>
-                <span class="ignored-method-name">setUp</span>
-                <br/>
-                <span class="ignored-method-name">tearDown</span>
                 <br/>
                 <span class="ignored-method-name">tearDown</span>
                 <br/>
@@ -402,74 +312,36 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">tests.learnLog4j</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">tests.ReadWriteUsingXL</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
-                <span class="method-name">setUp(CH)</span>
+                <span class="method-name">setUp(Ch)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
-                <span class="method-name">fbFirstNameBoxTest</span>
-                <span class="method-start">9126 ms</span>
+                <span class="method-name">readFromXl</span>
+                <span class="method-start">9397 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">fbRadioButtonTest</span>
-                <span class="method-start">39245 ms</span>
+                <span class="method-name">writeIntoXl</span>
+                <span class="method-start">9651 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">tests.dataProviderTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">tests.SkipDisable</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">testDataProvider(mafuz, Test@123)</span>
-                <span class="method-start">39437 ms</span>
+                <span class="method-name">goingToDisable</span>
+                <span class="method-start">9918 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">testDataProvider(sumi, test.232)</span>
-                <span class="method-start">39451 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">testDataProvider(Taltekc@gmail.com, test234245)</span>
-                <span class="method-start">39456 ms</span>
+                <span class="method-name">goingToSkip</span>
+                <span class="method-start">9919 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">tests.learnLog4j</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">tests.ReadWriteUsingXL</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">39461 ms</span>
-              </div> <!-- configuration-test after -->
-              <div class="configuration-test before">
-                <span class="method-name">setUp(ff)</span>
-                <span class="method-start">39530 ms</span>
-              </div> <!-- configuration-test before -->
-              <div class="test-method">
-                <span class="method-name">fbFirstNameBoxTest</span>
-                <span class="method-start">45022 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">fbRadioButtonTest</span>
-                <span class="method-start">75118 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">tests.dataProviderTest</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">testDataProvider(mafuz, Test@123)</span>
-                <span class="method-start">75266 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">testDataProvider(sumi, test.232)</span>
-                <span class="method-start">75270 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">testDataProvider(Taltekc@gmail.com, test234245)</span>
-                <span class="method-start">75273 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">tests.learnLog4j</div> <!-- chronological-class-name -->
-              <div class="configuration-test after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">75279 ms</span>
+                <span class="method-start">9919 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
