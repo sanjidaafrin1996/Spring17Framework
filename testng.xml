@@ -4,21 +4,21 @@
 
 	<!-- ================== CHROME TEST =============== -->
 	<test name="chome test">
-		<parameter name="browser" value="CH"></parameter>
+		<parameter name="browser" value="Ch"></parameter>
+
 		<classes>
-			<class name="tests.learnLog4j" />
-			<class name="tests.dataProviderTest"></class>
+			<class name="tests.ReadWriteUsingXL" />
+			<class name = "tests.SkipDisable"/>
 		</classes>
 	</test> <!-- Test -->
 
 	<!-- ==================FIREFOX TEST =============== -->
-	
+
 	<test name="fireFox test">
 		<parameter name="browser" value="ff"></parameter>
 
 		<classes>
-			<class name="tests.learnLog4j" />
-			<class name="tests.dataProviderTest"></class>
+			<!-- <class name="tests.learnLog4j" /> -->
 		</classes>
 	</test> <!-- Test -->
 
